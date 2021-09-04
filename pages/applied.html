@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet"> 
+
+        <title>My job portal</title>
+    </head>
+    <body>
+        <nav>
+            <div class="row">
+                <div class="col-6">
+                    <h4 class="heading-text">MyJobPortal</h4>
+                </div>
+                <div class="col-6">
+                    <div class="row justify-content-center">
+                        <a href="./postJob.html" type="button" class="btn btn-primary">Post a job</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row sticky bg-primary">
+            <div class="col-lg-4 col-sm-12">
+                <a href="../index.html" class="btn btn-block">Home</a>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <a href="./applied.html" class="btn btn-block">Applied jobs</a>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <a href="./applications.html" class="btn btn-block">Job Applications</a>
+            </div>
+        </div>
+        <div class="d-flex row justify-content-center" id="all-jobs"></div>
+        <script src="../js/applied.js"></script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+nav{
+    padding: 8px;
+    background-color: rgb(224, 224, 224);
+}
+.heading-text{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+}
+.btn{
+    font-size: 16px;
+    color: #fff;
+}
+.job-container{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    width: 700px;
+    margin: 5px;
+    padding: 5px;
+}
+.job-container span{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+}
+.job-container p{
+    font-size: large;
+}
+.extra-data p{
+    font-size: 17px;
+}
+form{
+    width: 700px;
+    margin: 7px;
+    padding: 5px;
+}
+label, input{
+    margin: 5px;
+}
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+.application-container{
+    width: 700px;
+    margin: 5px;
+}
